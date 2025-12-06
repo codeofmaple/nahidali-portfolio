@@ -16,7 +16,7 @@ const Hero = () => {
                 >
                     <h2 className="text-3xl font-semibold text-white">Hello, It's Me</h2>
                     <h1 className="text-5xl md:text-7xl font-black tracking-wide mb-4 text-white mt-2">
-                        John Kendric
+                        Md Nahid Ali
                     </h1>
                     <h3 className="font-bold text-custom-cyan text-3xl md:text-4xl mb-6">
                         Frontend Developer
@@ -55,7 +55,7 @@ const Hero = () => {
                             {/* Replace src with your real image */}
                             <img
                                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80"
-                                alt="John Kendric"
+                                alt="Md Nahid Ali"
                                 className="w-full h-full object-cover hexagon-shape"
                             />
                         </div>

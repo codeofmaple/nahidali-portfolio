@@ -21,8 +21,8 @@ const Contact = () => {
                         className="space-y-6"
                     >
                         <h3 className="text-2xl font-semibold text-white mb-6">Contact Info</h3>
-                        <ContactItem icon={<FaEnvelope />} label="Email" value="mdnrob30k@gmail.com" />
-                        <ContactItem icon={<FaPhone />} label="Phone" value="01908716502" />
+                        <ContactItem icon={<FaEnvelope />} label="Email" value="nahidali.dev@gmail.com" />
+                        <ContactItem icon={<FaPhone />} label="Phone" value="+880131444143" />
                         <ContactItem icon={<FaMapMarkerAlt />} label="Location" value="Rajshahi, Bangladesh" />
                     </motion.div>
 

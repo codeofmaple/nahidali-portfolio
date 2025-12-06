@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,14 +17,11 @@ function App() {
 
       <div className="relative z-10 flex flex-col gap-10">
         <Hero />
-        {/* You can create an About component similar to others or include it here */}
+        <About />
         <Skills />
         <Projects />
         <Contact />
-
-        <footer className="bg-brand-dark border-t border-brand-border py-8 text-center text-gray-500 text-sm">
-          <p>© 2025 MD NIROB SARKAR. All rights reserved.</p>
-        </footer>
+        <Footer />
       </div>
     </main>
   );
