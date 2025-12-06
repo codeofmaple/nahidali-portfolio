@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+
+/* 1. Define Theme Variables */
+@theme {
+  /* Fonts */
+  --font-poppins: 'Poppins', sans-serif;
+
+  /* Colors */
+  --color-custom-dark-blue: #081b29;
+  --color-custom-cyan: #00aae4;
+  --color-brand-dark: #0a0f1e;
+  --color-brand-card: rgba(17, 24, 39, 0.4);
+  --color-brand-border: rgba(129, 140, 153, 0.2);
+  --color-brand-text: #d1d5db;
+  --color-brand-accent: #2dd4bf;
+  --color-brand-purple: #8b5cf6;
+
+  /* Shadows */
+  --shadow-glow-cyan: 0 0 20px #00aae4, 0 0 40px #00aae4;
+
+  /* Animations */
+  --animate-scroll: scroll 25s linear infinite;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* 2. Global Resets & Utilities */
+:root {
+  font-family: var(--font-poppins);
+  background-color: var(--color-custom-dark-blue);
+  color: var(--color-brand-text);
+  overflow-x: hidden;
+}
+
+/* Custom Shape Utility */
+.hexagon-shape {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-custom-cyan);
+  border-radius: 5px;
+}
