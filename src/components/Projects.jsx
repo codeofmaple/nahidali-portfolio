@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import img1 from '../assets/toy-topia.png';
+import img2 from '../assets/bill-sync.png';
+import img3 from '../assets/e-tuition-bd.png';
 
 const Projects = () => {
     const projects = [
@@ -8,21 +11,21 @@ const Projects = () => {
             desc: 'A modern toy marketplace with interactive UI, filters, and search.',
             tags: ['React', 'Firebase', 'Tailwind'],
             category: 'Frontend',
-            img: 'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?fit=crop&w=800&q=80'
+            img: img1
         },
         {
-            title: 'FinEase',
-            desc: 'Complete finance tracker with dashboard charts and secure auth.',
-            tags: ['Next.js', 'MongoDB', 'Express'],
+            title: 'BillSync',
+            desc: 'A modern MERN stack solution for managing all your utility bills in one secure platform. Pay current bills, track history, and download reports effortlessly.',
+            tags: ['React', 'MongoDB', 'Express'],
             category: 'Full Stack',
-            img: 'https://images.unsplash.com/photo-1554224155-9732d560736f?fit=crop&w=800&q=80'
+            img: img2
         },
         {
-            title: 'BookHub',
-            desc: 'Online library management system with real-time updates.',
+            title: 'eTuitionBd',
+            desc: 'eTuitionBd is a full-stack Tuition Management System where students, tutors, and admins can manage tuition posts, tutor applications, approvals, payments, and analytics in one secure platform.',
             tags: ['MERN Stack', 'Redux', 'JWT'],
             category: 'Full Stack',
-            img: 'https://images.unsplash.com/photo-1507842217121-9e93ca0a50bd?fit=crop&w=800&q=80'
+            img: img3
         }
     ];
 

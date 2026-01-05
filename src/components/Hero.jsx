@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import profileImg from '../assets/profile.png';
 
 const Hero = () => {
     return (
@@ -35,7 +36,7 @@ const Hero = () => {
                     </div>
 
                     <a href="#" className="inline-block bg-custom-cyan text-custom-dark-blue text-lg font-semibold px-8 py-3 rounded-lg shadow-glow-cyan hover:shadow-none hover:translate-y-1 transition-all duration-300">
-                        Download CV
+                        Download Resume
                     </a>
                 </motion.div>
 
@@ -54,7 +55,7 @@ const Hero = () => {
                         <div className="absolute inset-0 bg-custom-cyan hexagon-shape p-1">
                             {/* Replace src with your real image */}
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80"
+                                src={profileImg}
                                 alt="Md Nahid Ali"
                                 className="w-full h-full object-cover hexagon-shape"
                             />
